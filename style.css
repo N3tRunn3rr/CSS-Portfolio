@@ -1,33 +1,56 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 1200px;
-  margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #2E4A2F; /* Forest green */
+    color: #EFEFEF; /* Light text color */
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1C2D21; /* Darker forest green for header */
 }
 
 .nav-link {
-  cursor: pointer;
-  margin-left: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #EFEFEF; /* Light text color for nav links */
+}
+
+.nav-link:hover {
+    color: #B3C2BF; /* Lighter forest green for nav link hover */
 }
 
 .work {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
 }
 
 .work img {
-  width: 45%;
-  margin: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+    border: 5px solid #1C2D21; /* Darker forest green for image border */
 }
 
-.work img:first-child {
-  width: 60%;
+.work .col-md-6:first-child img {
+    width: 100%;
+}
+
+.work a {
+    text-decoration: none;
+}
+
+#about, #work, #contact {
+    padding: 2rem 0;
+}
+
+h1, h2 {
+    color: #B3C2BF; /* Lighter forest green for headings */
+}
+
+h2 {
+    margin-bottom: 1rem;
 }

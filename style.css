@@ -73,3 +73,15 @@ h2 {
 h2 {
     margin-bottom: 1rem;
 }
+
+h3 {
+    color: #1C2D21; /* Darker forest green for headings */
+}
+
+p {
+    color: #1C2D21; /* Darker forest green for headings */
+}
+
+li {
+    color: #1C2D21; /* Darker forest green for headings */
+}

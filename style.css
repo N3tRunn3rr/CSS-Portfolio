@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-link {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.work img {
+  width: 45%;
+  margin: 1rem;
+}
+
+.work img:first-child {
+  width: 60%;
+}

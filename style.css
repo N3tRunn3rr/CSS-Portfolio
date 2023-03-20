@@ -29,6 +29,16 @@ header {
     margin: 2rem 0;
 }
 
+.project1 {
+    float: left;
+    width: 100%
+}
+
+.project2 {
+    float: left;
+    width: 100%
+}
+
 .work img {
     width: 100%;
     margin: 1rem 0;
@@ -43,12 +53,21 @@ header {
     text-decoration: none;
 }
 
+  /* Add styles for boxed sections */
 #about, #work, #contact {
-    padding: 2rem 0;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #B3C2BF; /* Lighter forest green for boxed sections */
+    border-radius: 10px; /* Rounded corners for boxed sections */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow to boxed sections */
 }
 
-h1, h2 {
-    color: #B3C2BF; /* Lighter forest green for headings */
+h1 {
+    color: #EFEFEF;
+}
+
+h2 {
+    color: #1C2D21; /* Darker forest green for headings */
 }
 
 h2 {
